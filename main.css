@@ -1,41 +1,59 @@
-<html>
-  <title>Brian Kang - Chess</title>
- <h1 style="color: blue;">  My Favorite Chess Pieces and Why! </h1>
- <!--This would change the color of this heading.-->
-  <ul>
-  <li> Bishop </li>
-  <li> Queen </li>
-  <li> King </li>
-  </ul>
- <h2 style="color: red; background-color: green; font-size: 30"> Bishop </h2>
-  <!--This would change the color, background-color and font-size of this heading.-->
-  <p> Although this piece is worth 3 points, which is two fewer points than the rook, which won’t be mentioned here, the bishop is worth more from the early to mid-game with its control on the board.
-  The rook only makes its impact towards the end of the game. You may be thinking that a piece that captures by columns has more impact than one that captures diagonally.
-  However, diagonals are putting more pressure and less visible to the enemy’s eye than captures by column. </p>   
-   <h2 style="color: red; background-color: green; font-size: 30"> Queen </h2>
-    <!--This would change the color, background-color and font-size of this heading.-->
-  <p> The queen tends to be the most valuable piece in everyone’s eyes and I agree with this. 
-  The queen can basically move like other pieces except for the knight and tends to be the most protected, second to the king. 
-  Usually, games are ended with the use of the queen and most stunning yet, but the sacrifice of the queen that people don’t anticipate. 
-  People would think that the entire game you would have to constantly save the most important piece, but to a good player, they will do anything to win a game and I mean anything. This makes the queen worth 9 points. </p>  
- <h2 style="color: red; background-color: green; font-size: 30"> King </h2>
-    <!--This would change the color, background-color and font-size of this heading.-->
-  <p> The king is the most valuable piece on the board as if you lose it, you lose the game. 
-    Although the king may seem weak by only being able to move one square per turn, the general game plan is to first protect your king by castling either the king or queenside than moving forward with your attack. 
-    ALWAYS remember to refer to the position of your king and question why your opponent made each move. 
-    Any piece is or can eventually become a threat to the king. 
-    The king is therefore worth infinite points because once again, you lose without the king. </p>
-  </ul><br>
-  <img src="https://media.chesskidfiles.com/images/user/tiny_mce/WeirdAuthor/chess-piece-values_f2f3d.png">
-  <h2> Learn more </h2>
-<u1>
-   <li><a href="https://www.chess.com/terms/chess-piece-value"> Chess.com  </a></li>
-   <li><a href="https://www.chesskid.com/article/view/chess-pieces-values"> Chesskid.com </a></li>
- </u1>
-    <h3 style="color: blue; background-color: orange; font-size: 24"> Showcasing Team Oranges</h3>
-  <!--This would change the color, background-color and font-size of this heading.-->
-  <ul>
-        <li><a href="https://ian-denis.github.io/web/talk.html">Ian Denis - Chess</a></li>
-        <li><a href="https://nicoleliu123.github.io/web/talk.html">Nicole Liu - Immune System</a></li>
-    </ul>
-</html>
+/*
+<!--Brian Kang -->
+<!--IntroCS pd2 sec2-->
+<!--HW05 -- Stuylin'-->
+<!--2021-2-18-->
+*/
+
+/*
+structure of a CSS ruleset:
+SELECTOR { 0 or more DECLARATIONS }
+where each declaration is of the form
+PROPERTY : VALUE;
+ */
+
+h1 {
+font-family:Verdana; 
+color: red; 
+background-color: yellow; 
+font-size: 30;
+border-style: dashed
+/*Font-family controls the fonts that are available for each text.*/
+ }
+h2 {
+font-family:Times New Roman; 
+color: blue;
+font-size: 20;
+text-shadow: 2px 2px 5px green;
+/*Text-shadow makes a color go behind the words.*/
+}
+h3 {
+color:purple;
+font-family: Georgia;
+color: purple;
+background-color: yellow; 
+font-size: 10;
+}
+p {
+  font-variant: small-caps;
+  /*Small-caps is able to make all lowercase letters uppercase, but it is smaller.*/
+  
+}
+body {
+  background-color: yellow;
+  border-style: double;
+  border-color: black;
+  font-variant: small-caps;
+  /*Changes the color of the border*/
+li {
+  font-family: "Courier New"
+  /*The table of contents is in Courier New font*/
+}
+img {
+  border-radius: 8px;
+  /*The images should have rounded edges.*/
+}
+a {
+	color: red
+	/*changes link colors*/
+}
